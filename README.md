@@ -1,0 +1,1 @@
+[![Rust](https://github.com/umgefahren/fast-irc-pairing-server/actions/workflows/rust.yml/badge.svg)](https://github.com/umgefahren/fast-irc-pairing-server/actions/workflows/rust.yml)
