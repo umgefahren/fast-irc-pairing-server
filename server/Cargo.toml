@@ -1,0 +1,17 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quinn = "0.8.0"
+rustls = { version = "*", features = ["dangerous_configuration", "quic"]}
+lib = { path = "../lib" }
+tokio = { version = "1.16.1", features = ["full"]}
+tokio-stream = "0.1.8"
+flume = "0.10.10"
+chashmap = "2.2.2"
+thiserror = "1.0.30"
+rustc-hash = "1.1.0"
